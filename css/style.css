@@ -1,0 +1,57 @@
+/* Navigation bar*/
+.d-md-block{
+    background-color: black;
+}
+.navbar-brand img{
+    width: 140px;
+}
+.bola{
+    font-family: 'Henny Penny', cursive;
+    font-size: 50px;
+}
+.sola{
+    font-size: 40px;
+}
+  /* Carousel styling */
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 100vh;
+  }
+
+  .carousel-item:nth-child(1) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .carousel-item:nth-child(2) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .carousel-item:nth-child(3) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .jumbotron p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+  }
+  .epistle p{
+    line-height: 2.0;
+    font-family: 'henry', sans-serif;
+  }
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #introCarousel {
+      margin-top: -58.59px;
+    }
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
