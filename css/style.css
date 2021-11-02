@@ -1,7 +1,4 @@
 /* Navigation bar*/
-.d-md-block{
-    background-color: black;
-}
 .navbar-brand img{
     width: 140px;
 }
@@ -45,10 +42,10 @@
     line-height: 2.0;
     font-family: 'henry', sans-serif;
   }
-/* Width  for devices less that 360px*/
-@media (max-width: 360px) {
+/* Width  for devices less that 375px*/
+@media(max-width: 375px){
     #introCarousel{
-       height: 50%;
+       margin-top:-58.59px ;
     }
     .sola{
         font-size: 16px;
@@ -60,13 +57,16 @@
       font-size: 15px;
     }
     .carousel-item video{
-        width: 100%;
-        height: 100%;
-        margin-top: -20.59px;
+        width: 110%;
     }
     .carousel-item img{
-      width: 150%;
+      width: 120%;
     }
+}
+@media (width: 768px) {
+  #introCarousel{
+    margin-top:-59.59px ;
+ }
 }
   /* Height for devices larger than 576px */
   @media (min-width: 992px) {
