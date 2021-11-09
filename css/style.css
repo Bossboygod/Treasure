@@ -43,7 +43,7 @@
     font-family: 'henry', sans-serif;
   }
 /* Width  for devices less that 375px*/
-@media(max-width: 375px){
+@media(max-width: 414px){
     #introCarousel{
        margin-top:-58.59px ;
     }
